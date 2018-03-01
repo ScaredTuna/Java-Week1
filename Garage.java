@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Garage {
-    List<Vehicle> vehicleList = new ArrayList<Vehicle>();
+    List<Vehicle> vehicleList = new LinkedList<Vehicle>();
     int noStoredVehicles;
 
     public int calculateBill(){
@@ -40,11 +41,12 @@ public class Garage {
     }
 
     public void emptyGarage(){
-        vehicleList = new ArrayList<Vehicle>();
+        vehicleList = new LinkedList<Vehicle>();
         noStoredVehicles = 0;
     }
 
     public void listContents(){
+        System.out.println("Contents of Garage: " + noStoredVehicles + " Vehicles");
         System.out.println(toString());
     }
 
