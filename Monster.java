@@ -18,25 +18,25 @@ public class Monster {
     public void move(String direction){
         switch (direction){
             case "north":
-                yLocation -= 2;
+                yLocation -= (int)(Math.random() * 5);
                 if(yLocation < 0){
                     yLocation = 9;
                 }
                 break;
             case "east":
-                xLocation += 2;
+                xLocation += (int)(Math.random() * 5);
                 if(xLocation > 9){
                     xLocation = 0;
                 }
                 break;
             case "west":
-                xLocation -= 2;
+                xLocation -= (int)(Math.random() * 5);
                 if(xLocation < 0){
                     xLocation = 9;
                 }
                 break;
             case "south":
-                yLocation += 2;
+                yLocation += (int)(Math.random() * 5);
                 if(yLocation > 9){
                     yLocation = 0;
                 }

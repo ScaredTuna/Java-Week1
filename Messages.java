@@ -8,7 +8,7 @@ public class Messages {
             "upon your arm. It seems to be displaying a distance.\n";
     private String tree = "You stumble across a stunted tree sticking out from the water.\n" +
             "As you look at the tree you begin to notice disturbing patterns in its bark, almost as if\n" +
-            " it were a person twisting in agony. You quickly look away and resolve to keep moving\n";
+            "it were a person twisting in agony. You quickly look away and resolve to keep moving\n";
     private String monster = "A sudden sound behind you causes you to whirl around.\n" +
             "There behind you is a looming shape, with unnaturately long arms, its features obscured by mud,\n" +
             "detritus and the ever-present gloom. With a gurgling screech it lunges forward and drags you into the\n" +
